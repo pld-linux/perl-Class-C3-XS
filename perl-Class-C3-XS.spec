@@ -10,7 +10,7 @@ Summary:	Class::C3::XS - XS speedups for Class::C3
 #Summary(pl.UTF-8):	
 Name:		perl-Class-C3-XS
 Version:	0.08
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
