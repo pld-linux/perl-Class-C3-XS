@@ -7,7 +7,7 @@
 %define	pdir	Class
 %define	pnam	C3-XS
 Summary:	Class::C3::XS - XS speedups for Class::C3
-#Summary(pl.UTF-8):	
+Summary(pl.UTF-8):	Class::C3::XS - przyspieszacze XS dla Class::C3
 Name:		perl-Class-C3-XS
 Version:	0.08
 Release:	2
@@ -22,24 +22,16 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This contains XS performance enhancers for Class::C3 version
-0.16 and higher.  The main Class::C3 package will use this
-package automatically if it can find it.  Do not use this
-package directly, use Class::C3 instead.
+This contains XS performance enhancers for Class::C3 version 0.16 and
+higher. The main Class::C3 package will use this package automatically
+if it can find it. Do not use this package directly, use Class::C3
+instead.
 
-The test suite here is not complete, although it does verify
-a few basic things.  The best testing comes from running the
-Class::C3 test suite *after* this module is installed.
-
-This module won't do anything for you if you're running a
-version of Class::C3 older than 0.16.  (It's not a
-dependency because it would be circular with the optional
-dep from that package to this one).
-
-
-
-# %description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+Ten pakiet zawiera moduły XS przyspieszające Class::C3 w wersji 0.16 i
+późniejszych. Główny pakiet Class::C3 używa tego pakietu automatycznie
+jeśli go znajdzie. Nie należy używać go bezpośrednio, jedynie przez
+Class::C3.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
