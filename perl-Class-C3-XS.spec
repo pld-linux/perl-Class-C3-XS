@@ -8,13 +8,13 @@
 Summary:	Class::C3::XS - XS speedups for Class::C3
 Summary(pl.UTF-8):	Class::C3::XS - przyspieszacze XS dla Class::C3
 Name:		perl-Class-C3-XS
-Version:	0.11
+Version:	0.13
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6afa4bd20dd179358df6acf8e77037fc
+# Source0-md5:	92a48fe74206b803315749de29c30b88
 URL:		http://search.cpan.org/dist/Class-C3-XS/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
