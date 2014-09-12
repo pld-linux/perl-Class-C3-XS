@@ -60,6 +60,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/Class/C3
 %dir %{perl_vendorarch}/auto/Class/C3
 %dir %{perl_vendorarch}/auto/Class/C3/XS
-%{perl_vendorarch}/auto/Class/C3/XS/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Class/C3/XS/*.so
 %{_mandir}/man3/*
