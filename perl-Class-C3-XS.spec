@@ -8,7 +8,7 @@ Summary:	Class::C3::XS - XS speedups for Class::C3
 Summary(pl.UTF-8):	Class::C3::XS - przyspieszacze XS dla Class::C3
 Name:		perl-Class-C3-XS
 Version:	0.14
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
